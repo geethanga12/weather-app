@@ -6,6 +6,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .weatherForm {
@@ -40,6 +41,7 @@ button[type="submit"]:hover{
 .card {
   background: linear-gradient(180deg, rgb(64, 64, 218), rgb(181, 130, 36));
   padding: 50px;
+  border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.443);
   min-width: 300px;
   display: flex;
@@ -71,7 +73,7 @@ p{
   margin-bottom: 25px;
 }
 
-.description {
+.descriptionDisplay {
   font-style: italic;
   font-weight: bold;
   font-size: 2rem;
